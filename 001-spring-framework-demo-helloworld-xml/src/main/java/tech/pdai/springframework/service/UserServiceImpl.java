@@ -10,6 +10,8 @@ import tech.pdai.springframework.entity.User;
  */
 public class UserServiceImpl {
 
+    //业务逻辑
+    //通过xml方式添加bean
     /**
      * user dao impl.
      */
@@ -27,6 +29,7 @@ public class UserServiceImpl {
      * @return user list
      */
     public List<User> findUserList() {
+        System.out.println("目标方法执行了");
         return this.userDao.findUserList();
     }
 

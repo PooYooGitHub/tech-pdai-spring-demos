@@ -4,6 +4,7 @@ package tech.pdai.springframework.entity;
  * @author pdai
  */
 public class User {
+    //ORM 对象关系映射，对象和数据库表的映射
 
     /**
      * user's name.

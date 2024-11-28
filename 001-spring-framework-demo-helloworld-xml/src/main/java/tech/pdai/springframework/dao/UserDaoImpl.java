@@ -10,6 +10,7 @@ import tech.pdai.springframework.entity.User;
  */
 public class UserDaoImpl {
 
+    //这里应该是从数据库中查询数据，这里为了简单，直接返回一个固定的值
     /**
      * init.
      */
