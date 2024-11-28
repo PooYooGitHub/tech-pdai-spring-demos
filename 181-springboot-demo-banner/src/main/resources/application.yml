@@ -5,3 +5,7 @@ spring:
   banner:
     charset: UTF-8
     location: classpath:banner.txt
+
+
+application:
+  version: 1.0.0
