@@ -19,6 +19,8 @@ public class App {
      */
     public static void main(String[] args) {
         // create and configure beans
+
+        //获取配置类
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeansConfig.class);
 
         // retrieve configured instance
