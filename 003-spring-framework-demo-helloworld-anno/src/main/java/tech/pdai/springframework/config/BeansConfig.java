@@ -10,6 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @EnableAspectJAutoProxy
+@ComponentScan("tech.pdai.springframework")
 public class BeansConfig {
 
 }

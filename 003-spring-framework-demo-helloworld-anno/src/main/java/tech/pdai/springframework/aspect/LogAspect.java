@@ -14,6 +14,8 @@ import java.lang.reflect.Method;
  * @author pdai
  */
 @Component
+//@Aspect用与申明这个类是一个切面类
+
 @Aspect
 public class LogAspect {
 
